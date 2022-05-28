@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hart Pableo - Proweaver Native Website Conversion Templates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hart Pableo</h1>
+        <h2>Website Conversion (Native) Templates/Snippets</h2>
+    </header>
+    <main>
+
+        <!-- Boxes Template (No image or icon)-->
+        <section class="sect1 section">
+            <div class="label">
+                <h3>Boxes Template (No image or icon)</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        .btm1_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}<br>
+                        .btm1_boxes section{width: 33%;max-width: 444px;background: #111;color: #fff;padding: 10px 10px 120px;position: relative;}<br>
+                        .btm1_boxes section h2{margin-bottom: 20px;}<br>
+                        .btm1_boxes section h2 span{display: block;}<br>
+                        .btm1_boxes section p{}<br>
+                        .btm1_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}<br>
+                        &nbsp;.btm1_boxes section a:hover{background: yellow;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1000px) {</div>
+                            <div class="main-code">
+                                .btm1_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                .btm1_boxes section{width: 100%;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <div class="btm1_boxes">
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+            </div>
+        </section>
+
+        <section class="sect2 section">
+            <div class="label">
+                <h3>Boxes Template (WITH image or icon)</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        .btm2_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}<br>
+                        .btm2_boxes section{width: 33%;max-width: 444px;background: #999;color: #fff;padding: 10px 10px 120px;position: relative;}<br>
+                        .btm2_boxes section h2{margin-bottom: 20px;position: relative;padding-top: 70px;}<br>
+                        .btm2_boxes section h2::before{content: url(images/dummy-icon.png);line-height: 100%;position: absolute;top: 0;left: 50%;transform: translateX(-50%);}<br>
+                        .btm2_boxes section h2 span{display: block;}<br>
+                        .btm2_boxes section p{}<br>
+                        .btm2_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}<br>
+                        .btm2_boxes section a:hover{background: yellow;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1000px) {</div>
+                            <div class="main-code">
+                                .btm2_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                .btm2_boxes section{width: 100%;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <div class="btm2_boxes">
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+            </div>
+        </section>
+
+        <section class="sect3 section">
+            <div class="label">
+                <h3>Boxes Template (Unique Middle Box)</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        .btm3_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}<br>
+                        .btm3_boxes section{width: 33%;max-width: 404px;background: #111;color: #fff;padding: 10px 10px 120px;position: relative;}<br>
+                        .btm3_boxes section h2{margin-bottom: 20px;}<br>
+                        .btm3_boxes section h2 span{display: block;}<br>
+                        .btm3_boxes section p{}<br>
+                        .btm3_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}<br>
+                        .btm3_boxes section a:hover{background: yellow;}<br>
+                        &nbsp;<br>
+                        .btm3_unique_box{pointer-events: none;}<br>
+                        .btm3_unique_box section{width: 100%;max-width: 500px;margin:  -285px auto 0;background: brown;color: #fff;padding: 10px 10px 120px;position: relative;text-align: center;min-height: 300px;pointer-events: auto;border: 8px solid #13ba5c;}<br>
+                        .btm3_unique_box section h2{margin-bottom: 20px;}<br>
+                        .btm3_unique_box section h2 span{display: block;}<br>
+                        .btm3_unique_box section p{}<br>
+                        .btm3_unique_box section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}<br>
+                        .btm3_unique_box section a:hover{background: yellow;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1400px) {</div>
+                            <div class="main-code">
+                                .btm3_unique_box section{max-width: 33%;}<br>
+                                .btm3_boxes section{max-width: 444px;}<br>
+                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1000px) {</div>
+                            <div class="main-code">
+                                .btm3_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+                                .btm3_unique_box section{max-width: none;margin: 5px auto;width: 49%;}
+                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                .btm3_boxes section{width: 100%;}
+                                .btm3_unique_box section{width: 100%;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <div class="btm3_boxes">
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+            </div>
+            <div class="btm3_unique_box">
+                <section>
+                    <h2>Dummy <span>Title</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus vel id, quisquam in dolorum molestias.</p>
+                    <a href="javascript:;">Click Here</a>
+                </section>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

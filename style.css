@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,*::before,*::after{box-sizing: border-box;margin: 0;padding: 0;}
+body{font-family: 'Roboto', sans-serif;width: 100%;min-height: 100vh;}
+
+header{text-align: center;padding: 2rem 1rem;background: #b31026;color: #fff;margin-bottom: 3rem;}
+header h1{font-size: 3em;line-height: 1.5em;}
+header h2{}
+
+main{max-width: 1375px;margin: 0 auto;padding: 0 10px;}
+main .section{margin-bottom: 45px;}
+main .section:last-of-type{margin-bottom:0;}
+main .section .label{margin-bottom:25px;border: 6px solid #111;text-align: center;padding: 2rem 1rem;}
+main .section .label h3{font-size: 2em;color: #b31026;}
+
+code{background: #222;padding: 20px 10px 20px 15px;border-radius: 15px;color: rgb(255, 225, 0);width: 100%;display: block;font-weight: bold;margin-bottom: 45px;font-size: 1rem;line-height: 1.25em;}
+code .style-tag{color: greenyellow;font-size: 1rem;display: block;}
+.main-code{padding-left: 30px;}
+.media{color: rgb(255, 130, 255);}
+
+.btm1_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}
+.btm1_boxes section{width: 33%;max-width: 444px;background: #111;color: #fff;padding: 10px 10px 120px;position: relative;}
+.btm1_boxes section h2{margin-bottom: 20px;}
+.btm1_boxes section h2 span{display: block;}
+.btm1_boxes section p{}
+.btm1_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
+.btm1_boxes section a:hover{background: yellow;}
+
+.btm2_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}
+.btm2_boxes section{width: 33%;max-width: 444px;background: #999;color: #fff;padding: 10px 10px 120px;position: relative;}
+.btm2_boxes section h2{margin-bottom: 20px;position: relative;padding-top: 70px;}
+.btm2_boxes section h2::before{content: url(images/dummy-icon.png);line-height: 100%;position: absolute;top: 0;left: 50%;transform: translateX(-50%);}
+.btm2_boxes section h2 span{display: block;}
+.btm2_boxes section p{}
+.btm2_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
+.btm2_boxes section a:hover{background: yellow;}
+
+.sect3 code{margin-bottom: 75px;}
+
+.btm3_boxes{display: flex;flex-wrap: wrap;justify-content: space-between;text-align: center;}
+.btm3_boxes section{width: 33%;max-width: 404px;background: #111;color: #fff;padding: 10px 10px 120px;position: relative;}
+.btm3_boxes section h2{margin-bottom: 20px;}
+.btm3_boxes section h2 span{display: block;}
+.btm3_boxes section p{}
+.btm3_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
+.btm3_boxes section a:hover{background: yellow;}
+
+.btm3_unique_box{pointer-events: none;}
+.btm3_unique_box section{width: 100%;max-width: 500px;margin:  -285px auto 0;background: brown;color: #fff;padding: 10px 10px 120px;position: relative;text-align: center;min-height: 300px;pointer-events: auto;border: 8px solid #13ba5c;}
+.btm3_unique_box section h2{margin-bottom: 20px;}
+.btm3_unique_box section h2 span{display: block;}
+.btm3_unique_box section p{}
+.btm3_unique_box section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
+.btm3_unique_box section a:hover{background: yellow;}
+
+@media only screen and (max-width:1400px) {
+    .btm3_unique_box section{max-width: 33%;}
+    .btm3_boxes section{max-width: 444px;}
+}
+
+@media only screen and (max-width:1000px) {
+    .btm1_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+    .btm2_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+    .btm3_boxes section{width: 49%;max-width: none;margin: 5px auto;}
+    .btm3_unique_box section{max-width: none;margin: 5px auto;width: 49%;}
+}
+
+@media only screen and (max-width:600px) {
+    .btm1_boxes section{width: 100%;}
+    .btm2_boxes section{width: 100%;}
+    .btm3_boxes section{width: 100%;}
+    .btm3_unique_box section{width: 100%;}
+}
