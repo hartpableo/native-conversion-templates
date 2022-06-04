@@ -245,6 +245,140 @@
             </div>
         </section>
 
+        <section class="sect5 section">
+            <div class="label">
+                <h3>Home Page Form Template 1</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        #submit_formmessage{display: flex;justify-content: space-between;flex-wrap: wrap;}<br>
+                        #submit_formmessage input{}<br>
+                        #submit_formmessage textarea{resize: none;overflow: auto;width: 35%;padding-top: 24px;}<br>
+                        #submit_formmessage input,#submit_formmessage textarea{font-family: inherit;font-size: 18px;color: #191919;padding-left: 24px;border: 1px solid #e1dfdf;height: 69px;}<br>
+                        #submit_formmessage input[type="text"]{}<br>
+                        #submit_formmessage input[type="email"]{}<br>
+                        #submit_formmessage input[type="submit"]{padding: 0;background: #000;color: #fff;width: 15%;}<br>
+                        #submit_formmessage input[type="submit"]:hover{}<br>
+                        #submit_formmessage input[type="text"],#submit_formmessage input[type="email"]{width: 24%;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1000px) {</div>
+                            <div class="main-code">
+                                #submit_formmessage input, #submit_formmessage textarea{width: 49% !important;margin: 5px auto;max-width: none;}
+                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                #submit_formmessage input, #submit_formmessage textarea{width: 100%!important;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <form action="#" method="post" id="submit_formmessage">
+				<input type="text" name="Full_Name" placeholder="Full Name*" class="form_fullname">
+				<input type="email" name="Email_Address" placeholder="Email Address*" class="form_email">
+				<textarea name="Question_or_Comment" placeholder="Message(s)"></textarea>
+				<input type="submit" value="Submit" name="submit_info" class="form_btn">
+			</form>
+
+            <!-- <form action="#" method="post" id="submit_formmessage">
+				<input type="text" name="Full_Name" placeholder="Full Name*" class="form_fullname">
+				<input type="email" name="Email_Address" placeholder="Email Address*" class="form_email">
+				<textarea name="Question_or_Comment" placeholder="Message(s)"></textarea>
+				<input type="submit" value="Submit" name="submit_info" class="form_btn">
+			</form> -->
+
+        </section>
+
+        <section class="sect5 section">
+            <div class="label">
+                <h3>Home Page Form Template 2</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        #submit_formmessage2{display: flex;justify-content: space-between;flex-wrap: wrap;}<br>
+                        #submit_formmessage2 input{}<br>
+                        #submit_formmessage2 textarea{resize: none;overflow: auto;width: 100%;padding-top: 24px;}
+                        #submit_formmessage2 input,#submit_formmessage2 textarea{font-family: inherit;font-size: 18px;color: #191919;padding-left: 24px;border: 1px solid #e1dfdf;height: 69px;margin: 10px 0;}<br>
+                        #submit_formmessage2 input[type="text"]{}<br>
+                        #submit_formmessage2 input[type="email"]{}<br>
+                        #submit_formmessage2 input[type="submit"]{padding: 0;background: #000;color: #fff;width: 300px;margin: 10px auto;}<br>
+                        #submit_formmessage2 input[type="submit"]:hover{}<br>
+                        #submit_formmessage2 input[type="text"],#submit_formmessage2 input[type="email"]{width: 49%;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                #submit_formmessage2 input, #submit_formmessage2 textarea{width: 100%!important;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <form action="#" method="post" id="submit_formmessage2">
+				<input type="text" name="Full_Name" placeholder="Full Name*" class="form_fullname">
+				<input type="email" name="Email_Address" placeholder="Email Address*" class="form_email">
+				<textarea name="Question_or_Comment" placeholder="Message(s)"></textarea>
+				<input type="submit" value="Submit" name="submit_info" class="form_btn">
+			</form>
+
+        </section>
+
+        <section class="sect5 section">
+            <div class="label">
+                <h3>Home Page Form Template using Button for Submit</h3>
+            </div>
+
+            <code>
+               <small class="style-tag">&lt;style&gt;<br></small>
+                    <div class="main-code">
+                        #submit_formmessage3{display: flex;justify-content: space-between;flex-wrap: wrap;}<br>
+                        #submit_formmessage3 input{}<br>
+                        #submit_formmessage3 textarea{resize: none;overflow: auto;width: 35%;padding-top: 24px;}
+                        #submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{font-family: inherit;height: 69px;border: 1px solid #ccc;font-size: 18px;color: #191919;padding-left: 24px;}<br>
+                        #submit_formmessage3 input[type="text"]{}<br>
+                        #submit_formmessage3 input[type="email"]{}<br>
+                        #submit_formmessage3 input[type="text"],#submit_formmessage3 input[type="email"]{width: 24%;}<br>
+                        #submit_formmessage3 button[type="submit"]{font-family: inherit;border: none;padding: 0;width: 15%;background: #000;color: #fff;text-align: center;}<br>
+                        #submit_formmessage3 button[type="submit"]:hover{}<br>
+                        #submit_formmessage3 button[type="submit"]::after{content: ">";display: inline-block;vertical-align: middle;line-height: 100%;margin-left: 15px;}<br>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:1000px) {</div>
+                            <div class="main-code">
+                                #submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{width: 49% !important;margin: 5px auto;max-width: none;}                            </div>
+                        <div class="media">}</div>
+                        &nbsp;
+                        <div class="media">@media only screen and (max-width:600px) {</div>
+                            <div class="main-code">
+                                #submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{width: 100%!important;}
+                            </div>
+                        <div class="media">}</div>
+                    </div>
+               <small class="style-tag">&lt;/style&gt;</small>
+            </code>
+    
+            <form action="#" method="post" id="submit_formmessage3">
+				<input type="text" name="Full_Name" placeholder="Full Name*" class="form_fullname">
+				<input type="email" name="Email_Address" placeholder="Email Address*" class="form_email">
+				<textarea name="Question_or_Comment" placeholder="Message(s)"></textarea>
+				<button type="submit" name="submit_info" class="form_btn">Submit</button>
+			</form>
+
+            <!-- <form action="#" method="post" id="submit_formmessage">
+				<input type="text" name="Full_Name" placeholder="Full Name*" class="form_fullname">
+				<input type="email" name="Email_Address" placeholder="Email Address*" class="form_email">
+				<textarea name="Question_or_Comment" placeholder="Message(s)"></textarea>
+				<input type="submit" value="Submit" name="submit_info" class="form_btn">
+			</form> -->
+
+        </section>
+
     </main>
     <footer>
         <p>Made: May 28, 2022<br> by Hart Lorenzo Pableo</p>

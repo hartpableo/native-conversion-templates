@@ -13,7 +13,7 @@ main .section:last-of-type{margin-bottom:0;}
 main .section .label{margin-bottom:25px;border: 6px solid #111;text-align: center;padding: 2rem 1rem;}
 main .section .label h3{font-size: 2em;color: #b31026;}
 
-code{background: #222;padding: 20px 10px 20px 15px;border-radius: 15px;color: rgb(255, 225, 0);width: 100%;display: block;font-weight: bold;margin-bottom: 45px;font-size: 1rem;line-height: 1.25em;}
+code{background: #222;padding: 20px 10px 20px 15px;border-radius: 15px;color: rgb(255, 225, 0);width: 100%;display: block;font-weight: bold;margin-bottom: 45px;font-size: 1rem;line-height: 1.25em;overflow-x: scroll;}
 code .style-tag{color: greenyellow;font-size: 1rem;display: block;}
 .main-code{padding-left: 30px;}
 .media{color: rgb(255, 130, 255);}
@@ -63,7 +63,49 @@ code .style-tag{color: greenyellow;font-size: 1rem;display: block;}
 .btm4_boxes section a{display: block;width: 150px;background: #fff;color: #000;line-height: 2.75em;position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
 .btm4_boxes section a:hover{background: yellow;}
 
+#submit_formmessage{display: flex;justify-content: space-between;flex-wrap: wrap;}
+#submit_formmessage input{}
+#submit_formmessage textarea{resize: none;overflow: auto;width: 35%;padding-top: 24px;}
+#submit_formmessage input,#submit_formmessage textarea{font-family: inherit;font-size: 18px;color: #191919;padding-left: 24px;border: 1px solid #e1dfdf;height: 69px;}
+#submit_formmessage input[type="text"]{}
+#submit_formmessage input[type="email"]{}
+#submit_formmessage input[type="submit"]{padding: 0;background: #000;color: #fff;width: 15%;}
+#submit_formmessage input[type="submit"]:hover{}
+#submit_formmessage input[type="text"],#submit_formmessage input[type="email"]{width: 24%;}
 
+#submit_formmessage2{display: flex;justify-content: space-between;flex-wrap: wrap;}
+#submit_formmessage2 input{}
+#submit_formmessage2 textarea{resize: none;overflow: auto;width: 100%;padding-top: 24px;}
+#submit_formmessage2 input,#submit_formmessage2 textarea{font-family: inherit;font-size: 18px;color: #191919;padding-left: 24px;border: 1px solid #e1dfdf;height: 69px;margin: 10px 0;}
+#submit_formmessage2 input[type="text"]{}
+#submit_formmessage2 input[type="email"]{}
+#submit_formmessage2 input[type="submit"]{padding: 0;background: #000;color: #fff;width: 300px;margin: 10px auto;}
+#submit_formmessage2 input[type="submit"]:hover{}
+#submit_formmessage2 input[type="text"],#submit_formmessage2 input[type="email"]{width: 49%;}
+
+#submit_formmessage3{display: flex;justify-content: space-between;flex-wrap: wrap;}
+#submit_formmessage3 input{}
+#submit_formmessage3 textarea{resize: none;overflow: auto;width: 35%;padding-top: 24px;}
+#submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{font-family: inherit;height: 69px;border: 1px solid #ccc;font-size: 18px;color: #191919;padding-left: 24px;}
+#submit_formmessage3 input[type="text"]{}
+#submit_formmessage3 input[type="email"]{}
+#submit_formmessage3 input[type="text"],#submit_formmessage3 input[type="email"]{width: 24%;}
+#submit_formmessage3 button[type="submit"]{font-family: inherit;border: none;padding: 0;width: 15%;background: #000;color: #fff;text-align: center;}
+#submit_formmessage3 button[type="submit"]:hover{}
+#submit_formmessage3 button[type="submit"]::after{content: ">";display: inline-block;vertical-align: middle;line-height: 100%;margin-left: 15px;}
+
+/* #submit_formmessage{}
+#submit_formmessage input{}
+#submit_formmessage textarea{}
+#submit_formmessage input,#submit_formmessage textarea{}
+#submit_formmessage input::placeholder,#submit_formmessage textarea::placeholder{}
+#submit_formmessage input[type="text"]{}
+#submit_formmessage input[type="email"]{}
+#submit_formmessage input[type="submit"]{}
+#submit_formmessage input[type="text"],#submit_formmessage input[type="email"]{}
+.form_btn{}
+#submit_formmessage button[type="submit"]{}
+#submit_formmessage button[type="submit"]::before{} */
 
 
 
@@ -86,6 +128,8 @@ footer{text-align: center;font-size: 1rem;line-height: 1.25em;background: #111;c
     .btm3_unique_box section a{bottom: 40px;}
     .btm4_boxes section{width: 49%;max-width: none;margin: 5px auto;padding: 40px 25px 120px;}
     .btm4_boxes section a{bottom: 40px;}
+    #submit_formmessage input, #submit_formmessage textarea{width: 49% !important;margin: 5px auto;max-width: none;}
+    #submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{width: 49% !important;margin: 5px auto;max-width: none;}
 }
 
 @media only screen and (max-width:600px) {
@@ -94,4 +138,7 @@ footer{text-align: center;font-size: 1rem;line-height: 1.25em;background: #111;c
     .btm3_boxes section{width: 100%;}
     .btm3_unique_box section{width: 100%;}
     .btm4_boxes section{width: 100%;}
+    #submit_formmessage input, #submit_formmessage textarea{width: 100%!important;}
+    #submit_formmessage2 input, #submit_formmessage2 textarea{width: 100%!important;}
+    #submit_formmessage3 input,#submit_formmessage3 textarea,#submit_formmessage3 button[type="submit"]{width: 100%!important;}
 }
